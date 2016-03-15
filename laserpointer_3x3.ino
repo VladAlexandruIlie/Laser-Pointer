@@ -1,9 +1,4 @@
 
-// zoomkat 10-4-10 serial servo test
-// type servo position 0 to 180 in serial monitor
-// for writeMicroseconds, use a value like 1500
-// for IDE 0019 and later
-// Powering a servo from the arduino usually DOES NOT WORK.
 #include <Servo.h> 
 #include <string.h>
 String readString, searching;
